@@ -1,88 +1,91 @@
-# Assignment4 Alishser Mukhamedov, Yerkanat Manasov
+# AI Model Marketplace
 
-AI Model Marketplace
-This is a decentralized marketplace for buying and selling AI models using ERC-20 tokens. The platform allows users to list AI models for sale, purchase models, and rate them using a custom ERC-20 token.
+Authors
 
-Features
-List AI Models: Sellers can list their AI models by providing a name, description, and price.
+Alisher Mukhamedov
 
-Purchase Models: Buyers can purchase AI models using ERC-20 tokens.
+Yerkanat Manasov
+
+### Overview
+
+AI Model Marketplace is a decentralized platform for buying and selling AI models using a custom ERC-20 token. Users can list AI models, purchase them, and provide ratings, all within a blockchain-based ecosystem.
+
+### Features
+
+List AI Models: Sellers can list AI models by providing a name, description, and price.
+
+Purchase Models: Buyers can acquire AI models using ERC-20 tokens.
 
 Rate Models: Buyers can rate purchased models on a scale of 1 to 5.
 
-Token Integration: The marketplace uses a custom ERC-20 token for transactions.
+Token Integration: Transactions are conducted using a custom ERC-20 token.
 
-Wallet Integration: Users can connect their MetaMask wallet to interact with the platform.
+Wallet Integration: MetaMask is used for connecting and handling transactions.
 
-Technologies Used
-Smart Contracts: Built using Solidity and deployed on a local blockchain (e.g., Ganache) or a testnet (e.g., Rinkeby).
+##Technologies Used
 
-Frontend: Built with HTML, CSS, and JavaScript. Uses Web3.js to interact with the Ethereum blockchain.
+Smart Contracts: Written in Solidity and deployed on a local blockchain (Ganache) or a testnet (Rinkeby).
 
-Token: Custom ERC-20 token for transactions within the marketplace.
+Frontend: Built with HTML, CSS, and JavaScript. Web3.js is used for blockchain interactions.
 
-Getting Started
-Prerequisites
+Custom ERC-20 Token: Used for all transactions in the marketplace.
+
+
+## Getting Started
+
+# Prerequisites
+
 MetaMask: Install the MetaMask browser extension.
 
-Node.js: Ensure you have Node.js installed. Download it from here.
+Node.js: Install Node.js.
 
-Truffle: Install Truffle globally using npm:
-
-bash
-Copy
+Truffle: Install globally via npm:
 npm install -g truffle
-Ganache: Download and install Ganache for a local blockchain.
+Ganache: Download and install Ganache.
 
-Installation
+## Installation
 Clone the repository:
-
-bash
-Copy
 git clone https://github.com/your-username/ai-model-marketplace.git
 cd ai-model-marketplace
+
 Install dependencies:
-
-bash
-Copy
+```bash
 npm install
+```
 Compile and deploy the smart contracts:
-
-bash
-Copy
+```bash
 truffle migrate --reset
-Start the local server:
-
-bash
-Copy
+```
+Start the local development server:
+```bash
 npm run dev
+```
 Open the application in your browser:
-
-Copy
+```bash
 http://localhost:8080
-Usage
-Connect MetaMask:
+```
+
+
+## Usage
+Connecting MetaMask
 
 Open the application in your browser.
 
-Connect your MetaMask wallet to the local blockchain (e.g., Ganache).
+Connect your MetaMask wallet to the local blockchain (Ganache).
 
-List a Model:
-
+## Listing an AI Model
 Enter the model name, description, and price.
 
 Click "List Model".
 
-Purchase a Model:
-
+## Purchasing an AI Model
 Select a model from the list.
 
 Click "Purchase Selected Model".
 
 Confirm the transaction in MetaMask.
 
-Rate a Model:
-
+## Rating an AI Model
 Select a purchased model.
 
 Enter a rating (1 to 5).
@@ -91,60 +94,17 @@ Click "Rate Selected Model".
 
 Confirm the transaction in MetaMask.
 
-Project Structure
-contracts/: Contains the Solidity smart contracts.
-
-AIModelMarketplace.sol: The main marketplace contract.
-
-UniversityGroupToken.sol: The custom ERC-20 token contract.
-
-migrations/: Contains deployment scripts for the smart contracts.
-
-frontend/: Contains the frontend code.
-
-index.html: The main HTML file.
-
-app.js: The JavaScript file for interacting with the blockchain.
-
-style.css: The CSS file for styling the application.
-
-README.md: This file.
-
-Screenshots
-Marketplace Interface
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
-OpenZeppelin for the ERC-20 token implementation.
-
-Truffle Suite for the development framework.
-
-MetaMask for wallet integration.
-
-How to Contribute
-Fork the repository.
-
-Create a new branch:
-
-bash
-Copy
-git checkout -b feature/your-feature-name
-Commit your changes:
-
-bash
-Copy
-git commit -m "Add your feature"
-Push to the branch:
-
-bash
-Copy
-git push origin feature/your-feature-name
-Open a pull request.
-
-Contact
-For any questions or feedback, feel free to reach out:
+# Project Structure 
+📂 ai-model-marketplace/
+├── 📂 contracts/           
+│   ├── AIModelMarketplace.sol  
+│   ├── UniversityGroupToken.sol 
+├──📂 migrations/       
+├──📂 frontend/          
+│   ├── index.html        
+│   ├── app.js           
+│   ├── style.css          
+├── README.md             
 
 
 ![5285024362753291231](https://github.com/user-attachments/assets/fb53afbd-0762-4cb2-9699-38922e8e403e)
