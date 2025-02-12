@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Model Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AI Model Marketplace</h1>
+
+    <!-- Wallet Connection -->
+    <button id="connectWallet">Connect Wallet</button>
+    <p id="walletAddress"></p>
+
+    <!-- User Token Balance -->
+    <p>Token Balance: <span id="tokenBalance">0</span></p>
+    <button id="refreshBalance">Refresh Balance</button>
+
+    <!-- List AI Model -->
+    <h2>List a New AI Model</h2>
+    <input type="text" id="modelName" placeholder="Model Name">
+    <input type="text" id="modelDescription" placeholder="Model Description">
+    <input type="number" id="modelPrice" placeholder="Price in Tokens">
+    <button id="listModel">List Model</button>
+
+    <!-- Marketplace -->
+    <h2>Available Models</h2>
+    <div id="modelList"></div>
+
+    <script src="web3-config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
